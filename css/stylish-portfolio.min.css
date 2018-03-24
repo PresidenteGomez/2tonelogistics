@@ -49,6 +49,12 @@ font-size: 4rem
 
 }
 
+#twotone-logo {
+position: absolute;
+top: 30px;
+left: 70px;
+} 
+
 h1,
 h2,
 h3,
@@ -122,6 +128,8 @@ h6 {
     padding: 0
 }
 
+
+
 @media (min-width:992px) {
     .masthead {
         height: 100vh
@@ -130,6 +138,8 @@ h6 {
         font-size: 5.5rem
     }
 }
+
+
 
 #sidebar-wrapper {
     position: fixed;

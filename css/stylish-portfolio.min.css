@@ -51,8 +51,11 @@ font-size: 4rem
 
 #twotone-logo {
 position: absolute;
-width: 250px;
-height: 150px;
+width: 350px;
+height: 200px;
+/* top: 15%;
+left: 40%; */
+
 } 
 
 h1,
@@ -153,7 +156,7 @@ h6 {
     -o-transition: all .4s ease 0s;
     transition: all .4s ease 0s;
     transform: translateX(250px);
-    background: #1d809f;
+    background: #1ac2ca;
     border-left: 1px solid rgba(255, 255, 255, .1)
 }
 
@@ -237,7 +240,7 @@ h6 {
 
 .service-icon {
     background-color: #fff;
-    color: #1d809f;
+    color: #1ac2ca;
     height: 7rem;
     width: 7rem;
     display: block;
@@ -321,7 +324,7 @@ h6 {
         clip-path: inset(2rem)
     }
     .portfolio-item:hover .caption {
-        background-color: rgba(29, 128, 159, .9);
+        background-color: #1ac2ca;
         -webkit-clip-path: inset(2rem);
         clip-path: inset(2rem)
     }
@@ -338,24 +341,24 @@ footer.footer .social-link {
     width: 4rem;
     line-height: 4.3rem;
     font-size: 1.5rem;
-    background-color: #1d809f;
+    background-color: #1ac2ca;
     transition: background-color .15s ease-in-out;
     box-shadow: 0 3px 3px 0 rgba(0, 0, 0, .1)
 }
 
 footer.footer .social-link:hover {
-    background-color: #155d74;
+    background-color: #1ac2ca;
     text-decoration: none
 }
 
 a {
-    color: #1d809f
+    color: #1ac2ca
 }
 
 a:active,
 a:focus,
 a:hover {
-    color: #155d74
+    color: #1ac2ca
 }
 
 .btn-primary {
@@ -395,11 +398,11 @@ a:hover {
 }
 
 .bg-primary {
-    background-color: #1d809f!important
+    background-color: #1ac2ca!important
 }
 
 .text-primary {
-    color: #1d809f!important
+    color: #80f7ff!important
 }
 
 .text-secondary {

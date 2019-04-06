@@ -51,11 +51,8 @@ font-size: 4rem
 
 #twotone-logo {
 position: absolute;
-width: 350px;
-height: 200px;
-/* top: 15%;
-left: 40%; */
-
+top: 0;
+left: 0;
 } 
 
 h1,
